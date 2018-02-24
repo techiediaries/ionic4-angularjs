@@ -1,0 +1,5 @@
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ * Built with http://stenciljs.com
+ */
+.reorder-enabled [reorderAnchor]{display:block}.reorder-list-active ion-gesture>*{transition:transform .3s;will-change:transform}.reorder-list-active ion-gesture :not([reorderAnchor]){pointer-events:none}.reorder-active{position:relative;z-index:100;box-shadow:0 0 10px rgba(0,0,0,.4);opacity:.8;transition:none!important;pointer-events:none}ion-reorder{transform:translate3d(160%,0,0);margin-top:auto!important;margin-bottom:auto!important;font-size:1.7em;opacity:.25;line-height:0;transition:transform 140ms ease-in}ion-reorder ion-icon{pointer-events:none}ion-reorder[slot=start]{transform:translate3d(-160%,0,0);order:-1}.reorder-visible ion-reorder{transform:translate3d(0,0,0)}ion-reorder-group.💎,ion-reorder.💎{visibility:inherit}

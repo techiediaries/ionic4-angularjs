@@ -1,0 +1,5 @@
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ * Built with http://stenciljs.com
+ */
+ion-datetime{display:flex;overflow:hidden}.datetime-text{overflow:hidden;flex:1;min-width:16px;min-height:1.2em;font-size:inherit;line-height:1.2;text-overflow:ellipsis;white-space:nowrap}.datetime-disabled,.item-datetime-disabled ion-label{opacity:.4;pointer-events:none}.item-label-floating ion-datetime,.item-label-stacked ion-datetime{padding-left:0;width:100%}.datetime-wp{padding:13px 8px 13px 16px;min-width:45%}.datetime-wp .datetime-text{padding:0 8px;min-height:3.4rem;border:2px solid rgba(0,0,0,.5);line-height:3rem}.item-datetime .datetime-wp ion-label[floating]{transform:translate3d(8px,41px,0)}.datetime-wp .datetime-placeholder{color:rgba(0,0,0,.5)}ion-datetime.💎{visibility:inherit}

@@ -1,0 +1,5 @@
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ * Built with http://stenciljs.com
+ */
+ion-select{position:relative;display:flex;overflow:hidden;max-width:45%}.select-text{overflow:hidden;flex:1;min-width:16px;font-size:inherit;text-overflow:ellipsis;white-space:nowrap}.item-multiple-inputs ion-select{position:relative}.item-select-disabled ion-label,.select-disabled{opacity:.4;pointer-events:none}.select-popover ion-list{margin:-1px 0}.select-option{display:none}.select-wp{margin:13px 8px;padding:0 8px;flex:1;max-width:100%;border:2px solid rgba(0,0,0,.5);line-height:3rem}.select-wp .select-placeholder{color:rgba(0,0,0,.5)}.item-wp.item-select ion-label{margin-left:0}.select-wp .select-icon{position:relative;align-self:center;width:18px;height:18px}.select-wp .select-icon .select-icon-inner{left:5px;top:3px;position:absolute;display:block;width:9px;height:9px;border-top:2px solid rgba(0,0,0,.5);border-right:2px solid rgba(0,0,0,.5);transform:rotate(135deg);pointer-events:none}.select-wp .select-text{min-height:3rem}ion-select-option.💎,ion-select-popover.💎,ion-select.💎{visibility:inherit}

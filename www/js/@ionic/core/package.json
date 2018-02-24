@@ -1,0 +1,70 @@
+{
+  "_from": "@ionic/core@0.0.2-20",
+  "_id": "@ionic/core@0.0.2-20",
+  "_inBundle": false,
+  "_integrity": "sha512-5NjnpsVt5iQbyqxTvqOYtglRdzS5sFP57XUv4veqLQblUP6mWdyEOPJfqdrGkkRNplZLmJdaWjWhrRqY1bSxGg==",
+  "_location": "/@ionic/core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ionic/core@0.0.2-20",
+    "name": "@ionic/core",
+    "escapedName": "@ionic%2fcore",
+    "scope": "@ionic",
+    "rawSpec": "0.0.2-20",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2-20"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic/core/-/core-0.0.2-20.tgz",
+  "_shasum": "a6568946e4386c5d9617c791a64d12b4074350fa",
+  "_spec": "@ionic/core@0.0.2-20",
+  "_where": "/home/ahmed/projects/ionic/ionic4-cordova-angularjs",
+  "author": {
+    "name": "Ionic Team"
+  },
+  "browser": "dist/ionic.js",
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic/issues"
+  },
+  "bundleDependencies": false,
+  "collection": "dist/collection/collection-manifest.json",
+  "deprecated": false,
+  "description": "Base components for Ionic",
+  "devDependencies": {
+    "@stencil/core": "0.0.6-0",
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest",
+    "ionicons": "^4.0.0-6",
+    "tslint": "^5.7.0",
+    "tslint-ionic-rules": "0.0.11"
+  },
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/ionic-team/ionic#readme",
+  "license": "MIT",
+  "main": "dist/collection/index.js",
+  "name": "@ionic/core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic.git"
+  },
+  "scripts": {
+    "build": "stencil build",
+    "clean": "rm -rf dist",
+    "deploy": "../../node_modules/.bin/np --any-branch",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\"",
+    "lint": "tslint --project .",
+    "lint-fix": "tslint --project . --fix",
+    "preversion": "npm run lint && npm run build",
+    "test": "jest --no-cache",
+    "validate": "npm run clean && npm run lint && npm run test && npm run build"
+  },
+  "types": "dist/collection/index.d.ts",
+  "version": "0.0.2-20"
+}

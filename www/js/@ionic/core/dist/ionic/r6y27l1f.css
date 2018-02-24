@@ -1,0 +1,5 @@
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ * Built with http://stenciljs.com
+ */
+ion-datetime{display:flex;overflow:hidden}.datetime-text{overflow:hidden;flex:1;min-width:16px;min-height:1.2em;font-size:inherit;line-height:1.2;text-overflow:ellipsis;white-space:nowrap}.datetime-disabled,.item-datetime-disabled ion-label{opacity:.4;pointer-events:none}.item-label-floating ion-datetime,.item-label-stacked ion-datetime{padding-left:0;width:100%}.datetime-ios{padding:11px 8px 11px 16px}.datetime-ios .datetime-placeholder{color:#999}ion-datetime.💎{visibility:inherit}

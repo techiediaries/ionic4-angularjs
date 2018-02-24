@@ -1,0 +1,5 @@
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ * Built with http://stenciljs.com
+ */
+ion-toast{left:0;top:0;position:absolute;z-index:1000;display:block;width:100%;height:100%;pointer-events:none;contain:strict}.toast-container{display:flex;align-items:center;pointer-events:auto;contain:content}.toast-button{padding:19px 16px 17px;font-size:1.5rem}.toast-message{flex:1}.toast-wp .toast-wrapper{left:0;right:0;margin:auto;border-radius:0;position:absolute;z-index:10;display:block;max-width:700px;background:#000}.toast-wp .toast-wrapper.toast-top{top:0;opacity:.01}.toast-wp .toast-wrapper.toast-bottom{bottom:0;opacity:.01}.toast-wp .toast-wrapper.toast-middle{opacity:.01}.toast-message{font-size:1.4rem;color:#fff;padding:1.5rem}.toast-button{color:#fff}ion-toast-controller.💎,ion-toast.💎{visibility:inherit}
